@@ -1,0 +1,212 @@
+-->login
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <style>
+            form{
+                position:absolute;
+                margin-top:60px;
+                margin-left: 650px;
+                font-family:sans-serif;
+                font-size:25px;
+                background-color:darkgrey;
+            }
+            input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.pone{
+  color:red;
+  
+  text-align:center;
+}
+        </style>
+       
+    </head>
+    <body style= background-color:lightyellow>
+      
+    <center>
+      <div class="head">
+       <img src="https://royalcourtindia.com/storage/2023/12/cropped-Hotel-Royal-Court-Logo-jpg-1-239x69.webp" alt="Description">
+       
+        </div >
+        <h1>LOGIN</h>
+        
+    </center>
+    <p class="pone" > Sign up for booking rooms and tables </P>
+    <div>
+    
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name:"name" placeholder="enter your full name"> <br>
+            <label for="name">phone number:</label>
+            <input type="text" id="name" name:"name" placeholder="enter your phone number"> <br>
+            <label for="name">email:</label>
+            <input type="text" id="name" name: "name" placeholder="enter your email"> <br>
+            <center>
+            <input type="submit" formaction="page.html" value="Login">
+            </center>
+        </form>
+     
+     </div>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>hotel</title>
+        <style>
+        .head{
+          background-position: center;
+     
+        position: relative;
+        text-align:center;
+        
+        }
+        a{
+           position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color:lightblue;
+  width: 60px;
+  height: 20px;
+  border: 5px solid black;
+  padding: 9px;
+  margin: 7px;
+        }
+        .pone{
+          text-align: center;
+          color:red;
+        }
+        .ptwo{
+            background-color:;
+            font-size: 25px;
+        }
+        .three{
+           font-size: 45px;
+           color:green;
+        }
+        
+        }
+        .small{
+          font-size: 30px;
+          color:green;
+        }
+        
+        </style>
+    </head>
+    
+    <body style=background-color:lightyellow> 
+      <div class="head">
+       <img src="https://royalcourtindia.com/storage/2023/12/cropped-Hotel-Royal-Court-Logo-jpg-1-239x69.webp" alt="Description">
+       
+        </div >
+        <p class="pone" > Sign up for booking room and tables </P>
+        <a href="login.html">Sign Up</a>
+        <center>
+        <div class="small"><b>#1 Best Hotels In Madurai Guaranteed</b>
+        </center>
+        </div>
+        <h2></h2>
+        <p class="ptwo" style=backrgound-color:lightblue> <b>Hotel Royal Court</b> Buffet Restaurant in <b>Madurai</b>  stands out as a culinary haven that promises an extraordinary journey for your taste buds.
+Nestled in the heart of Madurai, Hotel Royal Court takes immense pride in showcasing a buffet restaurant that sets unprecedented benchmarks in excellence. With an unwavering commitment to quality ingredients, remarkable flavors, and a diverse range of cuisines, their team of skilled chefs ensures that every dish is a work of art.
+</p>
+<br>
+<p class="ptwo">
+Immerse yourself in the vibrant ambiance as you discover a meticulously prepared and beautifully presented selection of dishes that will captivate your senses.
+
+Hotel Royal Court the only restaurants serving buffet in madurai  from <b> traditional South Indian delicacies to international</b> favorites, the buffet at Hotel Royal Court caters to every palate and preference.
+<p class="three" >
+Discover the Pinnacle of Luxury: BEST ROOMS! 
+</p>
+<center>
+<img src="https://royalcourtindia.com/storage/2023/07/PREMIUM.webp" alt="room" width="450" height="290"
+<br>
+<p class="three">
+The banquet hall provides ample seating and state-of-the-art audiovisual systems, perfect for grand events.</P>
+    <center><img src="https://royalcourtindia.com/storage/2023/08/Viceroy-Hall-Other-View.webp" alt="bangq" width="450" height="290">
+    </center>
+    <p class="three">
+      Indulge in an endless feast: Madurai's Best Buffet!
+      </p>
+      <center>
+        <img src="https://royalcourtindia.com/storage/2023/08/crystal-Restaurant.webp" alt="buffet" width="450" height="290">
+      </center>
+    </body> 
+</html>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    h1{
+      background-color:red;
+    color:white;
+    text-align:center;
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+    }
+    .one{
+     text-align: center;
+    }
+    
+    .sticky{
+      
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+    }
+    h2{
+      background-color:lightgrey;
+      text-align: center;
+    }
+    </style>
+  </head>
+<body style=background-color:lightyellow>
+
+<h1>RESERVE YOUR TABLE NOW !</h1>
+<p class="one"> <b>Click on the Image to Reserve your tables</b> </p>
+<center>
+  <div class="sticky">
+<img src="https://images.unsplash.com/photo-1599458252573-56ae36120de1?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHJlc2VydmVkJTIwdGFibGV8ZW58MHx8MHx8fDA%3D" alt="Workplace" usemap="#workmap" width="400" height="379">
+</div>
+
+</center>
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="A" href="new.html">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="new.html">
+</map>
+<br>
+<h2><b> EXCITING OFFERS ON WEEKENDS </b></h2>
+
+<p> Experience the<b> Best Buffet Restaurant</b> in Madurai only at Hotel Royal Court, our aim is to provide a fine dining experience that is unparalleled in Madurai. We pride ourselves on being the best buffet restaurant, offering a range of culinary delights that cater to all palates.
+Our skilled chefs use only the freshest and finest ingredients to craft the perfect dishes that will leave you craving for more </p>
+<center>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVgBN61nOTmR8vB8jQbww0hAYeXP0gUMnXbw&usqp=CAU" alt="no" width="350" height="270">
+</center>
+
+</body>
+</html>
+
+food.html <!DOCTYPE html> <html>   <head>     <style>     .head{     text-align:center;     color:green;     }     .two{       text-align:center;       color:red;     }     .t1{       color:darkblue; 
+    }     </style>   </head> <body style=background-color:lightyellow>      <h1 class="head">POPULOR FOOD ITEMS</h1>     <h2 class="two"> MORE OFFERS ON ALL SATURDAY'S</h>   <center>  <table> <tr> <th>Name</th> <th style="width: 430px;">Picture</th> </tr><tr> <td class="t1">Panner butter masala</td> <td><img src="paneer.html" alt="paneer" width="230" height="220"></td> <td></td> <br> </tr><tr> <td class="t1">Fish Curry</th> <td><img src="fish.html" alt="fish" width="230" height="230"></th> <td></th> </tr> <tr> <td class="t1">Hydrabadi Briyani</th> <td><img src="briyani.html" width="230" height="210"></th> </tr> <tr> <td class="t1">Dragon Prawns</th> <td><img src="prw.html"widht="180"height="130" </tr> </body> 
+</table> </center> </html>
